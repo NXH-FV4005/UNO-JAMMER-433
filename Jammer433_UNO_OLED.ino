@@ -83,9 +83,11 @@ void setup() {
   display.clearDisplay();
   display.setTextSize(1);
   display.setTextColor(WHITE);
-  display.setCursor(12,8);
+  display.setCursor(16,3);
   display.println("Jamming 433.92Mhz");
-  display.setCursor(12,20);
+  display.setCursor(44,13);
+  display.println("(owo)");
+  display.setCursor(28,24);
   display.println("@NXH_FV4005");
   display.display();
   delay(2000);
